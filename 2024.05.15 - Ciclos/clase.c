@@ -1,0 +1,1 @@
+// unsigned int → devuelve numeros enteros positivos unicamente, el signed es como decir int solo
