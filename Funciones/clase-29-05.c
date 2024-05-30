@@ -11,6 +11,8 @@ int main(void)
 {
     int num, max, min, flag=1;
 
+    //Modificar para saber cuales fueron el mayor y el menor de 100 tiradas de dados con rand. mostrarlos en una tabla de 5 columnas x 10 filas
+
     cargarDato(&num);
     while (num)
     {
