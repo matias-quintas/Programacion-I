@@ -4,7 +4,7 @@
 
 int main()
 {
-    float vector[TAMANO_VECTOR]={23,67,54,6,45};
+    int vector[TAMANO_VECTOR]={23,67,54,6,45};
     int i;
     srand(time(NULL));
     // Inicializar el vector con valores
@@ -17,7 +17,7 @@ int main()
     printf("\nValores del Vector:\n\n ");
     for (i = 0; i < TAMANO_VECTOR; i++)
     {
-        printf("vector[%d]=%.2f\n ", i, vector[i]);
+        printf("vector[%d]=%2d y vive en la direccion 0x%x\n ", i, vector[i], &vector[i]);
     }
     printf("\n");
     
